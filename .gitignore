@@ -1,0 +1,39 @@
+# Virtual Environment
+venv/
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyc
+
+# Database
+db.sqlite3
+
+# Static files
+/static/
+# Media files
+/media/
+
+# Log files
+*.log
+logs/
+
+# Database migrations
+Auth/migrations/
+
+# Cache
+/cache/
+
+# IDE-specific files 
+.vscode/
+
+# User-specific files
+.history/
+.DS_Store
+
+# Local configuration and secrets
+*.env
+
+# Ignore local configuration files (adjust as needed)
+.local_settings.py
